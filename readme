@@ -1,0 +1,14 @@
+The analysis file loads the audios and their sampling rates for already segmented vowel speech segments using montreal force alignment.
+
+Then acoustic analysis is performed b
+# varying time window
+# varying frequency bins/mels/ceps
+# varying feature type spec/melspec/cep
+
+Feature importance is compared
+within logfbank/mfcc feature (filter) importance analysis
+
+Results are saved as plots. 
+You need to install following library for feature analysis
+
+! pip install python_speech_features
